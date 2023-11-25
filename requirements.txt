@@ -1,0 +1,10 @@
+numpy
+pandas
+langchain
+InstructorEmbedding
+sentence-transformers
+faiss-cpu
+python-dotenv
+google-generativeai
+sentence-transformers
+InstructorEmbedding
