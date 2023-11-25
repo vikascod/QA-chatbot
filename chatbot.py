@@ -11,7 +11,7 @@ load_dotenv()
 
 google_api_key = os.environ["GOOGLE_API_KEY"]
 # Create Google Palm LLM model
-llm = GooglePalm(google_api_key=google_api_key, temperature=0.1)
+llm = GooglePalm(google_api_key=google_api_key, temperature=0.2)
 
 # # Initialize instructor embeddings using the Hugging Face model
 model_kwargs = {'device': 'cpu'}
